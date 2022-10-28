@@ -1,0 +1,99 @@
+* {
+    /* margin: 0px;
+    padding: 0;
+    /* align-items: center; */
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    margin: 5em 0.2em;
+    background-color: #ff7c44;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    font-size: 8em;
+    margin-block-start: -10px;
+    margin-block-end: 0;
+    margin-inline-start: 0.1em;
+    /* -webkit-text-stroke: 3.6px #4d002c; */
+    color: #ffbee9;
+    text-shadow: 8px 0px 6px #afbea4, 12px 0px 4px #4d002c6b, 16px 0px 2px #50c3c7, 20px 0px 0px #dece1a;
+}
+
+
+.randomWords-class {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-around; */
+    flex-direction: column;
+    margin: 4.5em 2.5em;
+
+    color: #ffbee9;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    align-content: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4d002c;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.05em;
+}
+
+/*------input boxes and button-----*/
+section {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-content: center;
+}
+
+.content-class {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0.5em;
+    align-content: center;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.input {
+    margin: 10px 28px;
+    padding: 1.2em 1em;
+    color: #ffbee9;
+    background-color: #4d002c;
+}
+
+#chirp-name {
+    width: 100px;
+}
+
+#chirp-content {
+    position: inherit;
+    /* text-align: center; */
+    width: 500px;
+    /* height: 100px; */
+}
+
+#quote-button {
+    width: 100px;
+    font-weight: bold;
+}
+
+/* #random-quote {
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+} */
