@@ -40,7 +40,7 @@ app.post("/quoteSave", (request, response) => {
         "date":dateOfDream,
         "dreamOfday":wordOfDream
     }
-    console.log(objToSave)
+    // console.log(objToSave)
     db.insert(objToSave);
 
     //1*response to the client 
@@ -56,7 +56,7 @@ app.get('/data',(request,response)=>{
 
     // "{}" means: give me everything
     db.find({},(error,docs) => {
-        console.log(docs);
+        // console.log(docs);
         //* "data" affects database structure in script.js: fetch('/data') get route
         let allQuotesData = {"data":docs};
         response.json(allQuotesData);
